@@ -1,0 +1,157 @@
+{
+  "categorias": [
+    {
+      "titulo": "Ação",
+      "link": "",
+      "cor": "#6BD1FF",
+      "videos": [
+        {
+          "titulo": "Red Dead Redemption 2",
+          "url": "https://www.youtube.com/watch?v=eaW0tYpxyp0"
+        },
+        {
+          "titulo": "Cyberpunk",
+          "url": "https://www.youtube.com/watch?v=7gbhCi6BusI"
+        },
+        {
+          "titulo": "Assassin's Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=ssrNcwxALS4"
+        },
+        {
+          "titulo": "Marvel's Avengers",
+          "url": "https://www.youtube.com/watch?v=p4gQos9BffI"
+        },
+        {
+          "titulo": "Batman Arkham Knight",
+          "url": "https://www.youtube.com/watch?v=dxa34RatmSc"
+        },
+        {
+          "titulo": "Gears of Wars 2",
+          "url": "https://www.youtube.com/watch?v=kYxfP4S8rIU"
+        },
+        {
+          "titulo": "Shadow of the Tomb Raider",
+          "url": "https://www.youtube.com/watch?v=CoLBrnC2F9g"
+        },
+        {
+          "titulo": "Castlevania: Lords of Shadow 2",
+          "url": "https://www.youtube.com/watch?v=Qy1M-34Bv2s"
+        }        
+      ]
+    },
+    {
+      "titulo": "Simulação",
+      "cor": "#00C86F",
+      "videos": [
+        {
+          "titulo": "Sim Theme Park",
+          "url": "https://www.youtube.com/watch?v=Z3Ge5QApvxk"
+        },
+        {
+          "titulo": "RollerCoaster Tycoon World",
+          "url": "https://www.youtube.com/watch?v=bocRdJ6n88Y"
+        },
+        {
+          "titulo": "Farming Simulator 19",
+          "url": "https://www.youtube.com/watch?v=SKWR8B0LlhI"
+        }
+      ]
+    },
+    {
+      "titulo": "Estratégia",
+      "cor": "#9cd33b",
+      "videos": [
+        {
+          "titulo": "Starcraft 2",
+          "url": "https://www.youtube.com/watch?v=aVtXac6if14"
+        },
+        {
+          "titulo": "Warcraft III: Reforged",
+          "url": "https://www.youtube.com/watch?v=Q2zfx5hQ3CE"
+        },
+        {
+          "titulo": "CIVILIZATION VI",
+          "url": "https://www.youtube.com/watch?v=5KdE0p2joJw"
+        },
+        {
+          "titulo": "Age of Empires 4",
+          "url": "https://www.youtube.com/watch?v=QFlVNtGJVDU"
+        }
+      ]
+    },
+    {
+      "titulo": "Tiro",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Star Wars Battlefront 2",
+          "url": "https://www.youtube.com/watch?v=qbVsjbBllKQ"
+        },
+        {
+          "titulo": "Battlefield 4",
+          "url": "https://www.youtube.com/watch?v=sclTMEd7JN8"
+        },
+        {
+          "titulo": "Bioshock Infinite",
+          "url": "https://www.youtube.com/watch?v=EsJ55BzIvkE"
+        },
+        {
+          "titulo": "Call of Duty: Black Ops",
+          "url": "https://www.youtube.com/watch?v=OPTOVQFRggI"
+        }
+      ]
+    },
+    {
+      "titulo": "Terror",
+      "cor": "red",
+      "videos": [
+        {
+          "titulo": "Dead Space 2",
+          "url": "https://www.youtube.com/watch?v=z7Qy_4sWs3I"
+        },
+        {
+          "titulo": "Outlast",
+          "url": "https://www.youtube.com/watch?v=Dx-DT8wUY80"
+        },
+        {
+          "titulo": "Alien: Isolation",
+          "url": "https://www.youtube.com/watch?v=7h0cgmvIrZw"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Bioshock",
+          "url": "https://www.youtube.com/watch?v=CoYorK3E4aM"
+        }
+      ]
+    },
+    {
+      "titulo": "RPG",
+      "cor": "#6b5be2",
+      "videos": [
+        {
+          "titulo": "Final Fantasy XV",
+          "url": "https://www.youtube.com/watch?v=pIyfWSrw_FQ"
+        },
+        {
+          "titulo": "Diablo 4",
+          "url": "https://www.youtube.com/watch?v=0SSYzl9fXOQ"
+        },
+        {
+          "titulo": "Dragon Quest: The Adventure of Dai",
+          "url": "https://www.youtube.com/watch?v=c9swwJQtb9s"
+        },
+        {
+          "titulo": "Dragon Age 2",
+          "url": "https://www.youtube.com/watch?v=jlACgYHtWCI"
+        },
+        {
+          "titulo": "The Witcher 3: Wild Hunt",
+          "url": "https://www.youtube.com/watch?v=53MyR_Z3i1w"
+        }
+      ]
+    }
+  ]
+}
