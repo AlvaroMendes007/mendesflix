@@ -3,23 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './Home';
 import Gif from '../src/assets/img/404.gif';
-// import styled from 'styled-components';
-
-// const Error = styled.error`
-//   text-align: 'center';
-// `;
-
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import PageDefault from './components/PageDefault';
+
 
 const Pagina404 = () => (
-  <div>
-    {/* <Error> */}
-      <img src={Gif} alt='404'/> 
-      <h1>Error 404</h1>
-    {/* </Error> */}
+  <PageDefault>
+  <div style ={{color: "red"}}>
+    <img src={Gif} alt='404'/> 
+    <h1>Error 404</h1>
   </div>
+  </PageDefault>
 )
 
 ReactDOM.render(
