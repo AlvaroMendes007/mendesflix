@@ -47,7 +47,7 @@ const Slider = ({ children }) => (
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: false,
-	  autplay:true,
+	  autoplay: true,
     }}
     >
       {children}
