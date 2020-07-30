@@ -24,16 +24,6 @@ export const VideoCardContainer = styled.a`
   &:focus {
     opacity: .5;
     transition-delay: .5s;
-    width: 400px;
-    height: 300px;
-  }
-
-  @media (max-width: 800px) {
-    &:hover,
-    &:focus {
-    opacity: .5;
-    transition-delay: .5s;
-    width: 380px;
   }
   }
   
