@@ -7,14 +7,21 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 import PageDefault from './components/PageDefault';
+import styled from 'styled-components';
 
+const Error404 = styled.div`
+  color: red;
+  text-align: center;
+`
 
 const Pagina404 = () => (
   <PageDefault>
-  <div style ={{color: "red"}}>
-    <img src={Gif} alt='404'/> 
-    <h1>Error 404</h1>
-  </div>
+    <Error404>
+      <div>
+        <img src={Gif} alt='404'/> 
+        <h1>Error 404</h1>
+      </div>
+    </Error404>
   </PageDefault>
 )
 
