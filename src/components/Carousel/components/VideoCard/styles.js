@@ -25,7 +25,6 @@ export const VideoCardContainer = styled.a`
     opacity: .5;
     transition-delay: .5s;
   }
-  }
   
   &:not(:first-child) {
     margin-left: 20px;
