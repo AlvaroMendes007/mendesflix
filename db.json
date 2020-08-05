@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Acao",
+            "descricao": "Jogos de ação de tirar o folego",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "nome": "Aventura",
+            "descricao": "Jogos com aventuras eletrizantes",
+            "cor": "#cbd1ff"
+        }
+    ]
+}
