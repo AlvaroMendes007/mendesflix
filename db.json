@@ -1,40 +1,217 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "titulo": "Acao",
-            "descricao": "Jogos de ação de tirar o folego",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "titulo": "Simulacao",
-            "descricao": "Jogos de simulação",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 3,
-            "titulo": "Estrategia",
-            "descricao": "Jogos de estratégia",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 4,
-            "titulo": "Tiro",
-            "descricao": "Jogos de tiro",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 5,
-            "titulo": "Terror",
-            "descricao": "Jogos de terror",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 6,
-            "titulo": "RPG",
-            "descricao": "Jogos de RPG",
-            "cor": "#cbd1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Acao",
+      "descricao": "Jogos de ação de tirar o folego",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 2,
+      "titulo": "Simulacao",
+      "descricao": "Jogos de simulação",
+      "cor": "#00C86F"
+    },
+    {
+      "id": 3,
+      "titulo": "Estrategia",
+      "descricao": "Jogos de estratégia",
+      "cor": "#9cd33b"
+    },
+    {
+      "id": 4,
+      "titulo": "Tiro",
+      "descricao": "Jogos de tiro",
+      "cor": "#ffa500"
+    },
+    {
+      "id": 5,
+      "titulo": "Terror",
+      "descricao": "Jogos de terror",
+      "cor": "#ff0000"
+    },
+    {
+      "id": 6,
+      "titulo": "RPG",
+      "descricao": "Jogos de RPG",
+      "cor": "#6b5be2"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Red Dead Redemption 2",
+      "url": "https://www.youtube.com/watch?v=eaW0tYpxyp0",
+      "description": "Red Dead Redemption 2 contará a história da Van de Linde, gangue criada e liderada por Dutch Van der Linde. Dentre seus membros estão John Marston, personagem do primeiro “Red Dead Redemption”, e Arthur Morgan, o protagonista da vez."
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Cyberpunk",
+      "url": "https://www.youtube.com/watch?v=7gbhCi6BusI"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Assassin's Creed Valhalla",
+      "url": "https://www.youtube.com/watch?v=ssrNcwxALS4"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Marvel's Avengers",
+      "url": "https://www.youtube.com/watch?v=p4gQos9BffI"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Batman Arkham Knight",
+      "url": "https://www.youtube.com/watch?v=dxa34RatmSc"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Gears of Wars 2",
+      "url": "https://www.youtube.com/watch?v=kYxfP4S8rIU"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Shadow of the Tomb Raider",
+      "url": "https://www.youtube.com/watch?v=CoLBrnC2F9g"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Castlevania: Lords of Shadow 2",
+      "url": "https://www.youtube.com/watch?v=Qy1M-34Bv2s"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Sim Theme Park",
+      "url": "https://www.youtube.com/watch?v=Z3Ge5QApvxk"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "RollerCoaster Tycoon World",
+      "url": "https://www.youtube.com/watch?v=bocRdJ6n88Y"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Farming Simulator 19",
+      "url": "https://www.youtube.com/watch?v=SKWR8B0LlhI"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "Starcraft 2",
+      "url": "https://www.youtube.com/watch?v=aVtXac6if14"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Warcraft III: Reforged",
+      "url": "https://www.youtube.com/watch?v=Q2zfx5hQ3CE"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "CIVILIZATION VI",
+      "url": "https://www.youtube.com/watch?v=5KdE0p2joJw"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Age of Empires 4",
+      "url": "https://www.youtube.com/watch?v=QFlVNtGJVDU"
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "titulo": "Star Wars Battlefront 2",
+      "url": "https://www.youtube.com/watch?v=qbVsjbBllKQ"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "Battlefield 4",
+      "url": "https://www.youtube.com/watch?v=sclTMEd7JN8"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Bioshock Infinite",
+      "url": "https://www.youtube.com/watch?v=EsJ55BzIvkE"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Call of Duty: Black Ops",
+      "url": "https://www.youtube.com/watch?v=OPTOVQFRggI"
+    },
+    {
+      "id": 20,
+      "categoriaId": 5,
+      "titulo": "Dead Space 2",
+      "url": "https://www.youtube.com/watch?v=z7Qy_4sWs3I"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Outlast",
+      "url": "https://www.youtube.com/watch?v=Dx-DT8wUY80"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Alien: Isolation",
+      "url": "https://www.youtube.com/watch?v=7h0cgmvIrZw"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Resident Evil 8",
+      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Bioshock",
+      "url": "https://www.youtube.com/watch?v=CoYorK3E4aM"
+    },
+    {
+      "id": 25,
+      "categoriaId": 6,
+      "titulo": "Final Fantasy XV",
+      "url": "https://www.youtube.com/watch?v=pIyfWSrw_FQ"
+    },
+    {
+      "id": 26,
+      "categoriaId": 6,
+      "titulo": "Diablo 4",
+      "url": "https://www.youtube.com/watch?v=0SSYzl9fXOQ"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "Dragon Quest: The Adventure of Dai",
+      "url": "https://www.youtube.com/watch?v=c9swwJQtb9s"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Dragon Age 2",
+      "url": "https://www.youtube.com/watch?v=jlACgYHtWCI"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "The Witcher 3: Wild Hunt",
+      "url": "https://www.youtube.com/watch?v=53MyR_Z3i1w"
+    }
+  ]
 }

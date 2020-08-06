@@ -70,9 +70,9 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <button>
+        <Button type="">
           Cadastrar
-        </button>
+        </Button>
       </form>
 
       {categorias.length === 0 && (
