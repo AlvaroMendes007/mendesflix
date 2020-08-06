@@ -2,14 +2,38 @@
     "categorias": [
         {
             "id": 1,
-            "nome": "Acao",
+            "titulo": "Acao",
             "descricao": "Jogos de ação de tirar o folego",
             "cor": "#cbd1ff"
         },
         {
             "id": 2,
-            "nome": "Aventura",
-            "descricao": "Jogos com aventuras eletrizantes",
+            "titulo": "Simulacao",
+            "descricao": "Jogos de simulação",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 3,
+            "titulo": "Estrategia",
+            "descricao": "Jogos de estratégia",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 4,
+            "titulo": "Tiro",
+            "descricao": "Jogos de tiro",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 5,
+            "titulo": "Terror",
+            "descricao": "Jogos de terror",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 6,
+            "titulo": "RPG",
+            "descricao": "Jogos de RPG",
             "cor": "#cbd1ff"
         }
     ]
