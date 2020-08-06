@@ -4,6 +4,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -42,6 +43,16 @@ function CadastroCategoria() {
           ...categorias,
           values
         ]);
+    
+      categoriasRepository.create({
+        titulo: values.nome,
+        descricao: values.descricao,
+        cor: values.cor,
+      })
+        .then(() => {
+          console.log('Cadastrou com sucesso!');
+          history.push('/');
+      });
 
         clearForm();
       }}>
