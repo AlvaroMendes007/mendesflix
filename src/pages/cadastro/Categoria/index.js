@@ -18,8 +18,9 @@ function CadastroCategoria() {
   
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.href.includes('localhost')
+    ? 'http://localhost:8080/categorias'
+    : 'https://mendesflix.herokuapp.com/categorias';
       fetch(URL)
         .then(async (respostaDoServer) => {
           if (respostaDoServer.ok) {
@@ -29,7 +30,6 @@ function CadastroCategoria() {
           }
           throw new Error('Não foi possível pegar os dados');
         })
-    }
   }, []);
 
   return (
